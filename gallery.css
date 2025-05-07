@@ -1,0 +1,19 @@
+h1{
+    padding-top: 20px;
+    padding:30px;
+    color: var(--primary_color);
+}
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 20px;
+    
+}
+.photos{
+    padding-top: 20px;
+    height: 200px;
+    width: 350px;
+    box-shadow: 10px 10px 10px var(--dark);
+    
+}

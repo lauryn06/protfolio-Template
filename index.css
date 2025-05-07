@@ -1,0 +1,40 @@
+
+section{
+    display: flex;
+    color: var(--white);
+    gap: 12rem;
+}
+.image{
+    position:relative;
+}
+img{
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
+    padding-top: 70px;
+}
+.about{
+  padding-top: 150px;
+    padding-left: 35px;
+}
+button{
+    gap: 2rem;
+    height: 35px;
+    width: 90px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 900;
+    border: 1px;
+    background-color: var(--primary_color);
+    box-shadow: 3px 3px 5px var(--dark);
+}
+.image {
+    position: relative; /* Makes the container a reference for absolute positioning */
+    display: inline-block;
+}
+
+
+
+
+
+

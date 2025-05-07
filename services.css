@@ -1,0 +1,40 @@
+h1{
+    padding-top: 20px;
+    padding:30px;
+}
+h2{
+    color: var(--primary_color);
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 20px;
+    
+}
+    .material-symbols-outlined {
+        text-align: center;
+        font-variation-settings:
+        'FILL' 1,
+        'wght' 600,
+}
+.grid1, .grid2, .grid3, 
+.grid4, .grid5, .grid6{
+    padding-top: 20px;
+    background-color: var(--dark);
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 3px 3px 10px var(--dark);
+    
+}
+.grid1:hover, .grid2:hover, .grid3:hover, 
+.grid4:hover, .grid5:hover, .grid6:hover{
+    background-color: var(--gray);
+
+}
+
+
+
